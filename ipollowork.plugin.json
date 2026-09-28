@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "id": "copilot-review-effort-auditor",
+  "name": "Copilot Review Effort Auditor",
+  "description": "Trace GitHub Copilot code review effort precedence, cost ranges, and rollout exposure from supplied settings.",
+  "source": {
+    "format": "ipollowork-extension-manifest",
+    "origin": "local",
+    "trusted": false
+  },
+  "package": {
+    "version": "1.0.0",
+    "publisher": { "id": "sykdhqk", "name": "sykdhqk" },
+    "updateId": "sykdhqk/copilot-review-effort-auditor",
+    "compatibility": { "ipollowork": ">=0.50.12" }
+  },
+  "resources": [
+    {
+      "type": "skill",
+      "id": "copilot-review-effort-auditor",
+      "label": "Copilot Review Effort Auditor",
+      "description": "Resolve review effort through GitHub Copilot precedence and produce an evidence-bound rollout audit.",
+      "path": "skills/copilot-review-effort-auditor",
+      "required": true
+    }
+  ]
+}
